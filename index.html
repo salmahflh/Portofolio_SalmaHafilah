@@ -9,6 +9,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    .box img,
+    .row img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      background-color: #1b1f24;
+    }
+
+    .skills-content .box img {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -47,7 +65,7 @@
 
   <section class="about" id="about">
     <div class="about-img">
-      <img src="photo.png" alt="Photo of Salma" />
+      <img src="img/photo.png" alt="Photo of Salma" />
     </div>
     <div class="about-text">
       <h2>I am a <span>Student</span></h2>
@@ -65,17 +83,17 @@
     <div class="center-text"><h2>My <span>Skills</span></h2></div>
     <div class="skills-content">
       <div class="box">
-        <img src="s-1.svg" alt="UI/UX Design" />
+        <img src="img/s-1.svg" alt="UI/UX Design" />
         <h3>UI/UX Design</h3>
         <p>Proficient in research and prototyping using Figma.</p>
       </div>
       <div class="box">
-        <img src="s-2.svg" alt="Front-End Dev" />
+        <img src="img/s-2.svg" alt="Front-End Dev" />
         <h3>Front-End</h3>
         <p>HTML, CSS, JS development for web platforms.</p>
       </div>
       <div class="box">
-        <img src="s-3.svg" alt="Leadership" />
+        <img src="img/s-3.svg" alt="Leadership" />
         <h3>Leadership</h3>
         <p>Organizational and cross-functional team management.</p>
       </div>
@@ -83,46 +101,35 @@
   </section>
 
   <section class="portfolio" id="portfolio">
-  <div class="center-text"><h2>My <span>Portfolio</span></h2></div>
-  <div class="portfolio-content">
-
-    <!-- CANFAS -->
-    <div class="row">
-      <img src="img/port-3.png" alt="CANFAS App">
-      <h5>CANFAS</h5>
-      <h4>Java-based Daily Journal App</h4>
+    <div class="center-text"><h2>My <span>Portfolio</span></h2></div>
+    <div class="portfolio-content">
+      <div class="row">
+        <img src="img/port-3.png" alt="CANFAS App">
+        <h5>CANFAS</h5>
+        <h4>Java-based Daily Journal App</h4>
+      </div>
+      <div class="row">
+        <img src="img/port-2.png" alt="TELS App">
+        <h5>TELS</h5>
+        <h4>Learning App for Vocational Students</h4>
+      </div>
+      <div class="row">
+        <img src="img/port-1.png" alt="FlowReach Web">
+        <h5>FLOWREACH</h5>
+        <h4>Front-End Flower Marketplace</h4>
+      </div>
+      <div class="row">
+        <img src="img/port-4.png" alt="CyberShield App">
+        <h5>CYBERSHIELD</h5>
+        <h4>Mobile App on Digital Security</h4>
+      </div>
+      <div class="row">
+        <img src="img/logokino.png" alt="KINO Learning App">
+        <h5>KINO LEARNING</h5>
+        <h4>Educational Platform for Informatics Students</h4>
+      </div>
     </div>
-
-    <!-- TELS -->
-    <div class="row">
-      <img src="img/port-2.png" alt="TELS App">
-      <h5>TELS</h5>
-      <h4>Learning App for Vocational Students</h4>
-    </div>
-
-    <!-- FLOWREACH -->
-    <div class="row">
-      <img src="img/port-1.png" alt="FlowReach Web">
-      <h5>FLOWREACH</h5>
-      <h4>Front-End Flower Marketplace</h4>
-    </div>
-
-    <!-- CYBERSHIELD -->
-    <div class="row">
-      <img src="img/port-4.png" alt="CyberShield App">
-      <h5>CYBERSHIELD</h5>
-      <h4>Mobile App on Digital Security</h4>
-    </div>
-
-    <!-- KINO LEARNING -->
-    <div class="row">
-      <img src="img/logokino.png" alt="KINO Learning App">
-      <h5>KINO LEARNING</h5>
-      <h4>Educational Platform for Informatics Students</h4>
-    </div>
-
-  </div>
-</section>
+  </section>
 
   <section class="experience" id="experience">
     <div class="center-text"><h2>Organizational <span>Experience</span></h2></div>
@@ -147,22 +154,17 @@
   </section>
 
   <section class="contact" id="contact">
-  <div class="center-text"><h2>Contact <span>Me</span></h2></div>
-  <div class="contact-form">
-    <form action="https://formsubmit.co/salmahafilah@student.ub.ac.id" method="POST">
-      <!-- Nonaktifkan CAPTCHA bawaan -->
-      <input type="hidden" name="_captcha" value="false">
-
-      <!-- Kolom input -->
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email Address" required />
-      <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
-
-      <!-- Tombol kirim -->
-      <button type="submit" class="send-btn">Send Message</button>
-    </form>
-  </div>
-</section>
+    <div class="center-text"><h2>Contact <span>Me</span></h2></div>
+    <div class="contact-form">
+      <form action="https://formsubmit.co/salmahafilah@student.ub.ac.id" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email Address" required />
+        <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
+        <button type="submit" class="send-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
 
   <footer class="footer">
     <div class="copyright">

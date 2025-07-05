@@ -40,7 +40,7 @@
       </div>
       <div class="main-btn">
         <a href="#portfolio" class="btn">See My Projects</a>
-        <a href="cv.jpg" class="btn btn2" download>Download My CV</a>
+        <a href="img/Salma Hafilah_CV.pdf" class="btn btn2" download>Download My CV (PDF)</a>
       </div>
     </div>
   </section>
@@ -147,16 +147,22 @@
   </section>
 
   <section class="contact" id="contact">
-    <div class="center-text"><h2>Contact <span>Me</span></h2></div>
-    <div class="contact-form">
-      <form action="#">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="E-mail Address" required />
-        <textarea placeholder="Your message..." rows="5" required></textarea>
-        <input type="submit" class="send-btn" value="Send Message" />
-      </form>
-    </div>
-  </section>
+  <div class="center-text"><h2>Contact <span>Me</span></h2></div>
+  <div class="contact-form">
+    <form action="https://formsubmit.co/salmahafilah@student.ub.ac.id" method="POST">
+      <!-- Nonaktifkan CAPTCHA bawaan -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Kolom input -->
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
+
+      <!-- Tombol kirim -->
+      <button type="submit" class="send-btn">Send Message</button>
+    </form>
+  </div>
+</section>
 
   <footer class="footer">
     <div class="copyright">

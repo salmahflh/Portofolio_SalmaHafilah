@@ -14,6 +14,7 @@
 
   <header class="header">
     <a href="#" class="logo">About <span>Salma.</span></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
     <ul class="navlist">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -22,7 +23,9 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <a href="https://wa.me/81935404712" class="h-btn">Contact me</a>
+    <div class="top-btnn">
+      <a href="https://wa.me/81935404712" class="h-btn">Contact me</a>
+    </div>
   </header>
 
   <section class="hero" id="home">
@@ -37,14 +40,14 @@
       </div>
       <div class="main-btn">
         <a href="#portfolio" class="btn">See My Projects</a>
-        <a href="img/Salma Hafilah_CV.pdf" class="btn btn2" download>Download My CV (PDF)</a>
+        <a href="cv.jpg" class="btn btn2" download>Download My CV</a>
       </div>
     </div>
   </section>
 
   <section class="about" id="about">
     <div class="about-img">
-      <img src="img/photo.png" alt="Photo of Salma" />
+      <img src="photo.png" alt="Photo of Salma" />
     </div>
     <div class="about-text">
       <h2>I am a <span>Student</span></h2>
@@ -59,20 +62,20 @@
   </section>
 
   <section class="skills" id="skills">
-    <h2>My <span>Skills</span></h2>
+    <div class="center-text"><h2>My <span>Skills</span></h2></div>
     <div class="skills-content">
       <div class="box">
-        <img src="img/s-1.svg" alt="UI/UX Design" />
+        <img src="s-1.svg" alt="UI/UX Design" />
         <h3>UI/UX Design</h3>
         <p>Proficient in research and prototyping using Figma.</p>
       </div>
       <div class="box">
-        <img src="img/s-2.svg" alt="Front-End Dev" />
+        <img src="s-2.svg" alt="Front-End Dev" />
         <h3>Front-End</h3>
         <p>HTML, CSS, JS development for web platforms.</p>
       </div>
       <div class="box">
-        <img src="img/s-3.svg" alt="Leadership" />
+        <img src="s-3.svg" alt="Leadership" />
         <h3>Leadership</h3>
         <p>Organizational and cross-functional team management.</p>
       </div>
@@ -80,41 +83,69 @@
   </section>
 
   <section class="portfolio" id="portfolio">
-    <h2>My <span>Portfolio</span></h2>
+    <div class="center-text"><h2>My <span>Portfolio</span></h2></div>
     <div class="portfolio-content">
-      <div class="row"><img src="img/port-3.png" /><h5>CANFAS</h5><h4>Java-based Daily Journal App</h4></div>
-      <div class="row"><img src="img/port-2.png" /><h5>TELS</h5><h4>Learning App for Vocational Students</h4></div>
-      <div class="row"><img src="img/port-1.png" /><h5>FLOWREACH</h5><h4>Front-End Flower Marketplace</h4></div>
-      <div class="row"><img src="img/port-4.png" /><h5>CYBERSHIELD</h5><h4>Mobile App on Digital Security</h4></div>
-      <div class="row"><img src="img/logokino.png" /><h5>KINO LEARNING</h5><h4>Educational Platform for Informatics Students</h4></div>
+      <div class="row">
+        <img src="port-1.png" alt="Chenle Web" />
+        <h5>Chenle's Web</h5>
+        <h4>Design Prototype</h4>
+      </div>
+      <div class="row">
+        <img src="port-2.png" alt="FlowReach" />
+        <h5>FlowReach</h5>
+        <h4>Flower Marketplace Web</h4>
+      </div>
+      <div class="row">
+        <img src="port-3.png" alt="CANFAS" />
+        <h5>CANFAS</h5>
+        <h4>Java Desktop Journal</h4>
+      </div>
+      <div class="row">
+        <img src="port-4.png" alt="Lumie" />
+        <h5>Lumie</h5>
+        <h4>Prototype Education Platform</h4>
+      </div>
     </div>
   </section>
 
   <section class="experience" id="experience">
-    <h2>Organizational <span>Experience</span></h2>
+    <div class="center-text"><h2>Organizational <span>Experience</span></h2></div>
     <div class="experience-content">
-      <div class="exp-box"><h3>ROBOTIIK FILKOM UB - CEO</h3><p>Led robotics innovation and managed cross-division teams.</p></div>
-      <div class="exp-box"><h3>EDUBANGSA - Product Manager</h3><p>Planned and delivered educational software products.</p></div>
-      <div class="exp-box"><h3>BEM FILKOM UB - Staff KASTRAT</h3><p>Implemented campus-wide discourse programs.</p></div>
-      <div class="exp-box"><h3>PKKMB & MMD</h3><p>Led orientation and community service events.</p></div>
+      <div class="exp-box">
+        <h3>ROBOTIIK FILKOM UB - CEO</h3>
+        <p>Led robotics innovation and managed cross-division teams.</p>
+      </div>
+      <div class="exp-box">
+        <h3>EDUBANGSA - Product Manager</h3>
+        <p>Planned and delivered educational software products.</p>
+      </div>
+      <div class="exp-box">
+        <h3>BEM FILKOM UB - Staff KASTRAT</h3>
+        <p>Implemented campus-wide discourse programs.</p>
+      </div>
+      <div class="exp-box">
+        <h3>PKKMB & MMD</h3>
+        <p>Led orientation and community service events.</p>
+      </div>
     </div>
   </section>
 
   <section class="contact" id="contact">
-    <h2>Contact <span>Me</span></h2>
+    <div class="center-text"><h2>Contact <span>Me</span></h2></div>
     <div class="contact-form">
-      <form action="https://formsubmit.co/salmahafilah@student.ub.ac.id" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email Address" required />
-        <textarea name="message" placeholder="Your Message..." rows="5" required></textarea>
-        <button type="submit" class="send-btn">Send Message</button>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="E-mail Address" required />
+        <textarea placeholder="Your message..." rows="5" required></textarea>
+        <input type="submit" class="send-btn" value="Send Message" />
       </form>
     </div>
   </section>
 
   <footer class="footer">
-    <p>© 2025 Salma Hafilah. All rights reserved.</p>
+    <div class="copyright">
+      <p>© 2025 Salma Hafilah. All rights reserved.</p>
+    </div>
     <a href="#home" class="scroll-top"><i class="bx bx-chevrons-up"></i></a>
   </footer>
 

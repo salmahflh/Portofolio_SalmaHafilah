@@ -284,7 +284,7 @@ section {
     margin-top: 4.2rem;
 }
 
-.row {
+  .portofolio-content .row {
     background: #2d343f;
     border-radius: 28px;
     box-shadow: 0 0 5px var(--main-color);
@@ -292,32 +292,32 @@ section {
     transition: all 0.5s ease;
 }
 
-.row:hover {
+.portofolio-content .row:hover {
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
     cursor: pointer;
 }
 
-.row img {
+.portofolio-content .row img {
   width: 100%;
   max-height: 180px;
   object-fit: cover;
   border-radius: 12px;
 }
 
-.main-row {
+.portofolio-content .main-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
-.row h5 {
+.portofolio-content .row h5 {
     font-size: 20px;
     font-weight: 600;
     color: var(--other-color);
 }
 
-.row h4 {
+.portofolio-content .row h4 {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;

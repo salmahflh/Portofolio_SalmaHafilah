@@ -2,152 +2,204 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio Salma</title>
+
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
 
+<body>
+  <!-- Header -->
   <header class="header">
     <a href="#" class="logo">About <span>Salma.</span></a>
     <div class="bx bx-menu" id="menu-icon"></div>
+
     <ul class="navlist">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portofolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+
     <div class="top-btnn">
       <a href="https://wa.me/81935404712" class="h-btn">Contact me</a>
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero" id="home">
-    <div class="main-content">
-      <h4>Hello, World!</h4>
+    <div class="main-content" data-aos="fade-in">
+      <h4>Hi Everyone!</h4>
       <h1>I'm <span>Salma Hafilah</span></h1>
-      <p>A passionate IT Education student at Universitas Brawijaya focused on leveraging technology to transform education and society.</p>
+      <p>A Student of Information Technology Degree, since 2022</p>
+
       <div class="social">
-        <a href="https://github.com/salmahflh"><i class="bx bxl-github"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100014715334790"><i class="bx bxl-facebook-circle"></i></a>
         <a href="https://www.instagram.com/salmahflh/"><i class="bx bxl-instagram-alt"></i></a>
-        <a href="https://www.linkedin.com/in/salma-hafilah-051617265/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://twitter.com/salmahafilah"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UC0AmRywElnos7WUw3kuCC2A"><i class="bx bxl-youtube"></i></a>
+        <a href="https://github.com/salmahflh"><i class="bx bxl-github"></i></a>
       </div>
+
       <div class="main-btn">
-        <a href="#portfolio" class="btn">See My Projects</a>
-        <a href="cv.jpg" class="btn btn2" download>Download My CV</a>
+        <a href="https://www.linkedin.com/in/salma-hafilah-051617265/" class="btn">Get to Know Me!</a>
+        <a href="img/cv.jpg" class="btn btn2" download>Download My CV</a>
       </div>
     </div>
   </section>
 
+  <!-- About Section -->
   <section class="about" id="about">
-    <div class="about-img">
-      <img src="photo.png" alt="Photo of Salma" />
+    <div class="about-img" data-aos="zoom-in-down">
+      <img src="img/photo.png" alt="Photo of Salma" />
     </div>
-    <div class="about-text">
+    <div class="about-text" data-aos="zoom-in-up">
       <h2>I am a <span>Student</span></h2>
-      <p>Currently pursuing a Bachelor's in Information Technology Education at Universitas Brawijaya with GPA 3.73. I love building educational platforms and meaningful technology.</p>
+      <p>of Information Technology Education at the Faculty of Computer Science</p>
+
       <div class="exp-area">
-        <p>Position: <span>Data Admin @ IRO UB</span></p>
-        <p>Organization: <span>CEO @ ROBOTIIK UB</span></p>
-        <p>Skills: <span>Java, HTML, CSS, JS, SQL</span></p>
-        <p>Soft Skills: <span>Leadership, Communication, Problem Solving</span></p>
+        <p class="exp">University: <span>Brawijaya</span></p>
+        <p class="exp">Years of Study: <span>1.5 Years</span></p>
+        <p class="exp">Student ID Number: <span>225150607111015</span></p>
+        <p class="exp">Address: <span>South Jakarta, Indonesia</span></p>
+        <p class="exp">Hobby: <span>Discussing current issues in society</span></p>
+        <p class="exp">Speciality: <span>Data Analysis, Front-end Developer</span></p>
+        <p class="exp">Organizations: <span>BEM FILKOM and UMAR MRP</span></p>
+        <p class="exp">Email: <span>salmahafilah@student.ub.ac.id</span></p>
       </div>
+
+      <a href="#" class="btn">View All Projects</a>
     </div>
   </section>
 
+  <!-- Skills Section -->
   <section class="skills" id="skills">
-    <div class="center-text"><h2>My <span>Skills</span></h2></div>
-    <div class="skills-content">
+    <div class="center-text" data-aos="fade-down">
+      <h2>My <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-content" data-aos="zoom-in-up">
       <div class="box">
-        <img src="s-1.svg" alt="UI/UX Design" />
-        <h3>UI/UX Design</h3>
-        <p>Proficient in research and prototyping using Figma.</p>
+        <img src="img/s-1.svg" alt="UI/UX Design" />
+        <h3>UI/UX <br />Design</h3>
+        <p>Some of the projects I've worked on</p>
+        <a href="#">See It <i class="bx bx-chevrons-right"></i></a>
       </div>
+
       <div class="box">
-        <img src="s-2.svg" alt="Front-End Dev" />
-        <h3>Front-End</h3>
-        <p>HTML, CSS, JS development for web platforms.</p>
+        <img src="img/s-2.svg" alt="Front-end Development" />
+        <h3>Front-end <br />Developer</h3>
+        <p>Some of the projects I've worked on</p>
+        <a href="#">See It <i class="bx bx-chevrons-right"></i></a>
       </div>
+
       <div class="box">
-        <img src="s-3.svg" alt="Leadership" />
-        <h3>Leadership</h3>
-        <p>Organizational and cross-functional team management.</p>
+        <img src="img/s-3.svg" alt="Back-end Development" />
+        <h3>Back-end <br />Developer</h3>
+        <p>Some of the projects I've worked on</p>
+        <a href="#">See It <i class="bx bx-chevrons-right"></i></a>
       </div>
     </div>
   </section>
 
-  <section class="portfolio" id="portfolio">
-    <div class="center-text"><h2>My <span>Portfolio</span></h2></div>
-    <div class="portfolio-content">
+  <!-- Portfolio Section -->
+  <section class="portofolio" id="portofolio">
+    <div class="center-text" data-aos="fade-down">
+      <h2>My <span>Portfolio</span></h2>
+    </div>
+
+    <div class="portofolio-content" data-aos="zoom-in-up">
+      <!-- Project 1 -->
       <div class="row">
-        <img src="port-1.png" alt="Chenle Web" />
-        <h5>Chenle's Web</h5>
+        <img src="img/port-1.png" alt="Chenle's Web" />
+        <div class="main-row">
+          <h5>Chenle's Web</h5>
+        </div>
+        <div class="row-icon">
+          <i class="bx bxl-github"></i>
+        </div>
         <h4>Design Prototype</h4>
       </div>
+
+      <!-- Project 2 -->
       <div class="row">
-        <img src="port-2.png" alt="FlowReach" />
-        <h5>FlowReach</h5>
-        <h4>Flower Marketplace Web</h4>
+        <img src="img/port-2.png" alt="FlowReach" />
+        <div class="main-row">
+          <h5>FlowReach</h5>
+        </div>
+        <div class="row-icon">
+          <i class="bx bxl-github"></i>
+        </div>
+        <h4>Website Development</h4>
       </div>
+
+      <!-- Project 3 -->
       <div class="row">
-        <img src="port-3.png" alt="CANFAS" />
-        <h5>CANFAS</h5>
-        <h4>Java Desktop Journal</h4>
+        <img src="img/port-3.png" alt="CanFas" />
+        <div class="main-row">
+          <h5>CanFas</h5>
+        </div>
+        <div class="row-icon">
+          <i class="bx bxl-github"></i>
+        </div>
+        <h4>JAVA App GUI</h4>
       </div>
+
+      <!-- Project 4 -->
       <div class="row">
-        <img src="port-4.png" alt="Lumie" />
-        <h5>Lumie</h5>
-        <h4>Prototype Education Platform</h4>
+        <img src="img/port-4.png" alt="Lumie" />
+        <div class="main-row">
+          <h5>Lumie</h5>
+        </div>
+        <div class="row-icon">
+          <i class="bx bxl-figma"></i>
+        </div>
+        <h4>Design Prototype</h4>
       </div>
     </div>
   </section>
 
-  <section class="experience" id="experience">
-    <div class="center-text"><h2>Organizational <span>Experience</span></h2></div>
-    <div class="experience-content">
-      <div class="exp-box">
-        <h3>ROBOTIIK FILKOM UB - CEO</h3>
-        <p>Led robotics innovation and managed cross-division teams.</p>
-      </div>
-      <div class="exp-box">
-        <h3>EDUBANGSA - Product Manager</h3>
-        <p>Planned and delivered educational software products.</p>
-      </div>
-      <div class="exp-box">
-        <h3>BEM FILKOM UB - Staff KASTRAT</h3>
-        <p>Implemented campus-wide discourse programs.</p>
-      </div>
-      <div class="exp-box">
-        <h3>PKKMB & MMD</h3>
-        <p>Led orientation and community service events.</p>
-      </div>
-    </div>
-  </section>
-
+  <!-- Contact Section -->
   <section class="contact" id="contact">
-    <div class="center-text"><h2>Contact <span>Me</span></h2></div>
-    <div class="contact-form">
+    <div class="center-text" data-aos="fade-down">
+      <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-form" data-aos="zoom-in">
       <form action="#">
         <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="E-mail Address" required />
-        <textarea placeholder="Your message..." rows="5" required></textarea>
-        <input type="submit" class="send-btn" value="Send Message" />
+        <input type="email" placeholder="E-mail Address..." required />
+        <textarea cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+        <input type="submit" value="Send Message" class="send-btn" />
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer">
     <div class="copyright">
-      <p>© 2025 Salma Hafilah. All rights reserved.</p>
+      <p>© 2023 Salma Hafilah, All Rights Reserved.</p>
     </div>
     <a href="#home" class="scroll-top"><i class="bx bx-chevrons-up"></i></a>
   </footer>
 
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1400,
+    });
+  </script>
 </body>
 </html>
